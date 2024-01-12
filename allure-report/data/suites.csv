@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jan 12 00:19:20 IST 2024","Fri Jan 12 00:19:32 IST 2024","11827","TestCases","test_Registration_testCases","Test_user_registration","","","test_Login_using_params[getDataForLogin3]",""
+"passed","Fri Jan 12 00:17:50 IST 2024","Fri Jan 12 00:17:56 IST 2024","6541","TestCases","test_Registration_testCases","Test_user_registration","","","test_registrations_Of_User",""
+"passed","Fri Jan 12 00:18:18 IST 2024","Fri Jan 12 00:18:21 IST 2024","2919","TestCases","test_Registration_testCases","Test_user_registration","","","test_Login_using_params[getDataForLogin0]",""
+"passed","Fri Jan 12 00:18:03 IST 2024","Fri Jan 12 00:18:11 IST 2024","7829","TestCases","test_Registration_testCases","Test_user_registration","","","test_login_of_user",""
+"passed","Fri Jan 12 00:18:27 IST 2024","Fri Jan 12 00:18:39 IST 2024","12278","TestCases","test_Registration_testCases","Test_user_registration","","","test_Login_using_params[getDataForLogin1]",""
+"passed","Fri Jan 12 00:18:51 IST 2024","Fri Jan 12 00:19:03 IST 2024","12232","TestCases","test_Registration_testCases","Test_user_registration","","","test_Login_using_params[getDataForLogin2]",""
