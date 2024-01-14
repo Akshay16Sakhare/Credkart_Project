@@ -82,3 +82,31 @@ class Test_user_registration():
             elif getDataForLogin[2] == 'fail':
                 print('Incorrect Login Credentials.')
                 assert True
+
+    def test_add_product_and_display_amt(self, setup):
+        self.driver = setup
+        self.regi_att = credkart_POM(self.driver)
+        self.regi_att.click_login_option()
+
+        self.regi_att.enter_Login_email(self.get_user_email)
+        self.regi_att.enter_Login_passwd(self.get_user_passwd)
+        self.regi_att.click_Login_button()
+
+        products = [self.regi_att.select_playstation, self.regi_att.select_xBox]
+
+        for item in products:
+            item()
+            self.regi_att.add_Products_to_cart()
+            self.regi_att.continue_shopping()
+
+        self.regi_att.go_to_cart_button()
+        print('Products added successfully')
+
+        Total_amount = self.regi_att.total_amount()
+        print(Total_amount)
+
+        self.driver.close()
+
+
+
+
